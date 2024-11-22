@@ -55,11 +55,17 @@ div {
 
 .jumbotron {
     background-color: blue;
-    height: 10%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    border: none;
 }
 
 .immagine {
     background-color: violet;
+    height: 250px;
+    align-self: center;
+    width: 50%;
 }
 
 /* Sezioni */
@@ -72,27 +78,49 @@ div {
     background-color: pink;
 }
 
-/* sezione grande 
-    height: 25.6%;
+.sezione-grande {
+    height: 1500px;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
 }
-*/
 
 .greenbox {
     background-color: green;
+    height: 1200px;
+    width: 66%;
+    align-self: center;
 }
 
 .dispari {
-    height: 12.8%;
+    height: 500px;
 }
 
 .pari {
     background-color: gray;
-    height: 12.8%;
+    height: 500px;
 }
+
+/* Ultima section */
 
 .ultima {
     background-color: black;
-    height: 12.8%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: rgba(255, 0, 85, 0.979);
+    height: 500px;
+    width: 20%;
+}
+
+.aquamarine {
+    background-color: aquamarine;
+    height: 500px;
+    width: 10%;
+    border-color: white;
 }
 
 /* pié di pagina*/
@@ -110,7 +138,7 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 66%;
-    background-color: aquamarine;
+    background-color: rgb(127, 208, 255);
     margin-top: 25px
 }
 
