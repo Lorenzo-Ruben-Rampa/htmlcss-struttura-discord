@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Intestazione */
+
+header {
+    display:flex;
+    justify-content: center;
+    height: 75px;
+    background-color: rgb(5, 169, 245);
+    width: 100%;
+}
+
+nav {
+    background-color: orange;
+    height: 50px;;
+    border-style: dashed;
+}
+
+.laterale {
+    width: 13,4%;
+}
+
+.centrale {
+    width: 40,2%;
+    margin: 0, auto;
+}
+
+.jumbotron {
+    background-color: blue;
+    height: 10%;
+}
+
+.immagine {
+    background-color: violet;
+}
+
+/* Sezioni */
+
+section {
+    height: 12,8%;
+}
+
+.container-blue {
+    background-color: blue;
+}
+
+.container-pink {
+    background-color: pink;
+}
+
+.centrale {
+    height: 25,6%;
+}
+
+.greenbox {
+    background-color: green;
+}
+
+.dispari {
+}
+
+.pari {
+    background-color: gray;
+}
+
+.ultima {
+    background-color: black;
+}
+
+/* pié di pagina*/
+
+footer {
+    height: 75px;
+    width: 100%;
+    background-color:black;
+    margin-top: 2px;
+    display:flex;
+    justify-content: center;;
+}
+
+.container-pièdipagina {
+    display: flex;
+    justify-content: space-between;
+    width: 66%;
+    background-color: aquamarine;
+    margin-top: 25px
+}
+
+.pièdipagina {
+    margin: 25%, 50%, 0, 50%;
+}
