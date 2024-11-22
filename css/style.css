@@ -14,6 +14,11 @@ header {
     width: 100%;
 }
 
+p {
+    align-self: center;
+    margin: 10px;
+}
+
 nav {
     border-style: dashed;
 }
@@ -25,16 +30,25 @@ div {
 .nav-header {
     background-color: orange;
     height: 50px; 
-    margin-top: 15px;
+    align-self: center;
+    display: flex;
+    justify-content: flex-start
 }
 
 .laterale {
     width: 13.4%;
+    height: 50px;
+}
+
+.dx {
+    display:flex;
+    flex-direction: row-reverse;
 }
 
 .centrale {
     width: 40.2%;
-    margin: 0, auto;
+    height: 50px;
+    justify-content: center;
 }
 
 /* jumbotron */
@@ -58,9 +72,10 @@ div {
     background-color: pink;
 }
 
-.centrale {
+/* sezione grande 
     height: 25.6%;
 }
+*/
 
 .greenbox {
     background-color: green;
