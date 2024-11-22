@@ -4,7 +4,6 @@
     padding: 0;
 }
 
-
 /* Intestazione */
 
 header {
@@ -15,20 +14,28 @@ header {
     width: 100%;
 }
 
-nav {
-    background-color: orange;
-    height: 50px;;
+.nav {
     border-style: dashed;
+    margin-top: 15px;
+}
+}
+
+.nav-header {
+    background-color: orange;
+    height: 50px;
+    margin-top: 15px;   
 }
 
 .laterale {
-    width: 13,4%;
+    width: 13.4%;
 }
 
 .centrale {
-    width: 40,2%;
+    width: 40.2%;
     margin: 0, auto;
 }
+
+/* jumbotron */
 
 .jumbotron {
     background-color: blue;
@@ -41,10 +48,6 @@ nav {
 
 /* Sezioni */
 
-section {
-    height: 12,8%;
-}
-
 .container-blue {
     background-color: blue;
 }
@@ -54,7 +57,7 @@ section {
 }
 
 .centrale {
-    height: 25,6%;
+    height: 25.6%;
 }
 
 .greenbox {
@@ -62,14 +65,17 @@ section {
 }
 
 .dispari {
+    height: 12.8%;
 }
 
 .pari {
     background-color: gray;
+    height: 12.8%;
 }
 
 .ultima {
     background-color: black;
+    height: 12.8%;
 }
 
 /* pié di pagina*/
@@ -93,4 +99,5 @@ footer {
 
 .pièdipagina {
     margin: 25%, 50%, 0, 50%;
+    background-color: grey;
 }
