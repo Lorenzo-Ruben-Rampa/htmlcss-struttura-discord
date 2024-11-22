@@ -71,11 +71,15 @@ div {
 /* Sezioni */
 
 .container-blue {
-    background-color: blue;
+    background-color: lightskyblue;
+    height: 500px;
+    width: 33%;
 }
 
 .container-pink {
     background-color: pink;
+    height: 500px;
+    width: 20%;
 }
 
 .sezione-grande {
@@ -94,11 +98,17 @@ div {
 
 .dispari {
     height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .pari {
     background-color: gray;
     height: 500px;
+    display: flex;
+    justify-content: center;
 }
 
 /* Ultima section */
